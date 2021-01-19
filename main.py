@@ -9,7 +9,7 @@ st.write("""
 Student Final Marks Prediction Using Regression
 
 """)
-image=Image.open("C:/Users/SARVJEET/Desktop/Post/ml.jpeg")
+image=Image.open("img/ml.jpeg")
 st.image(image,caption="Machine Learning", use_column_width=True)
 df=pd.read_csv('C:/Users/SARVJEET/MY Project/student-por.csv')
 data=df[["studytime","freetime","G2","G1","absences","health","G3"]]
